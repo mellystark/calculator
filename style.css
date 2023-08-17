@@ -2,16 +2,20 @@ h1{
     color: rgb(179, 81, 144);
     text-align: center;
     font-size: 50px;
+    text-shadow: 2px 4px #000000 ;
+    text-decoration: double;
 }
 #machine{
-    width: 30%;
-    height: 650px;
+    width: 20%;
+    height: 85%;
     display: grid;
     margin: auto;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, 
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     border-radius: 2%;  
     border: 4px solid;
+    background-image: linear-gradient(rgb(127, 127, 127), rgb(23, 23, 23));
+    border-style: double;
 }
 #screen{
     width: 90%;
@@ -26,6 +30,10 @@ h1{
     justify-content: center;
     font-size: 25px;
     border: 2px solid;
+    background-color: white;
+    font: size 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #buttons{
     width: 80%;
@@ -54,26 +62,31 @@ h1{
     color: white;
     background-color:#805980;
     font-weight: bold;
+    background-image: linear-gradient(#805980,rgb(136, 34, 87) );
 }
 .darker{
     color: white;
     background-color: rgb(136, 34, 87);
     font-weight: bold;
+    background-image: linear-gradient(rgb(136, 34, 87), black);
 }
+
 .black{
     color: white;
     background-color:#805980;
     font-weight: bold;
+    background-image: linear-gradient(#805980,rgb(136, 34, 87) );
 }
 .number{
     color: white;
     background-color: rgb(255, 181, 181);
     font-weight: bold;
+    background-image: linear-gradient(rgb(255, 181, 181), #805980);
 }
 #equal{
     display: grid;
     width: 100px;
-    justify-self: center;
+    justify-self: right;
     align-items: center;
     font-weight: bold;
     color: rgb(136, 34, 87);
@@ -85,5 +98,6 @@ h1{
     border-color:rgb(136, 34, 87) ;
     text-align: center;
     background-color: rgb(255, 179, 187);
-    
+    background-image: linear-gradient(rgb(255, 181, 181), #ffffff);
+    cursor: pointer;
 }
